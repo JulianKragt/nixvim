@@ -1,10 +1,8 @@
-{ ... }:
 {
   globals = {
     loaded_ruby_provider = 0;
-    loaded_perl_provider = 0;
+    loaded_perl_provnder = 0;
     loaded_python_provider = 0;
-    mapleader = " ";
   };
 
   opts = {
@@ -12,8 +10,11 @@
     number = true;
 
     swapfile = false;
+    backup = false;
+    undodir = "./../undodir";
     undofile = true;
 
+    hlsearch = false;
     incsearch = true;
     inccommand = "split";
     ignorecase = true;
@@ -24,11 +25,14 @@
     splitbelow = true;
     splitright = true;
 
-    autoindent = true;
     wrap = false;
 
+    tabstop = 4;
+    softtabstop = 4;
+    shiftwidth = 4;
     expandtab = true;
 
+    smartindent = true;
 
     virtualedit = "block";
 

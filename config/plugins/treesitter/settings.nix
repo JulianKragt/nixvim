@@ -8,7 +8,7 @@
 
     incremental_selection = {
       enable = true;
-      keymansp = {
+      keymaps = {
         init_selection = "<leader>ss";
         node_incremental = "<leader>si";
         scope_incremental = "<leader>sc";
