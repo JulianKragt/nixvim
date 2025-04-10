@@ -15,6 +15,12 @@
           desc = "New file";
           action = ":ene | startinsert";
         }
+        {
+          icon = "";
+          key = "q";
+          desc = "Quit";
+          action = ":qa";
+        }
       ];
       header = ''
      ██┐██┐  ██┐██┐   ██┐   ██┐██┐███┐   ███┐
@@ -33,18 +39,19 @@
       {
         title = "Keymaps";
         section = "keys";
-        indent = 3;
+        indent = 2;
         padding = 2;
       }
       {
         title = "Recent recent";
         section = "recent_files";
+        indent = 2;
         padding = 2;
       }
       {
         title = "Projects";
         section = "projects";
-        indent = 3;
+        indent = 2;
         padding = 2;
       }
 
