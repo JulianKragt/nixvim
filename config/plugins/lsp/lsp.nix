@@ -11,6 +11,14 @@
         enable = true;
         autostart = true;
       };
+      svelte = {
+        enable = true;
+        autostart = true;
+      };
+      ts_ls = {
+        enable = true;
+        autostart = true;
+      };
     };
   };
 }

@@ -1,0 +1,3 @@
+{
+  plugins.snacks.settings.notifier = {};
+}
