@@ -10,13 +10,14 @@
       projects.focus = "list";
       registers.focus = "list";
       jumps.focus = "list";
+      buffers.focus = "list";
     };
   };
   keymaps = [
     # Find files
     {
       mode = "n";
-      key = "<leader>fb";
+      key = "<leader>b";
       action = ":lua Snacks.picker.buffers()<CR>";
       options.desc = "Find Buffers";
     }

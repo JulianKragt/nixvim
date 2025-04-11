@@ -11,8 +11,6 @@
 
     swapfile = false;
     backup = false;
-    undodir = "./../undodir";
-    undofile = true;
 
     hlsearch = false;
     incsearch = true;
