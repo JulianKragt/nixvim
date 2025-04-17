@@ -1,3 +1,5 @@
 {
-  plugins.snacks.settings.input = {};
+  plugins.snacks.settings.input = {
+    enabled = true;
+  };
 }

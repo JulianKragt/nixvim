@@ -1,3 +1,5 @@
 {
-  plugins.snacks.settings.bigfile = {};
+  plugins.snacks.settings.bigfile = {
+    enabled = true;
+  };
 }

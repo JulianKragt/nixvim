@@ -1,3 +1,5 @@
 {
-  plugins.snacks.settings.image = {};
+  plugins.snacks.settings.image = {
+    enabled = true;
+  };
 }

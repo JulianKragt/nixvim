@@ -1,3 +1,5 @@
 {
-  plugins.snacks.settings.animate = {};
+  plugins.snacks.settings.animate = {
+    enabled = true;
+  };
 }

@@ -1,3 +1,6 @@
 {
-  plugins.snacks.settings.notifier = {};
+  plugins.snacks.settings.notifier = {
+    enabled = true;
+    style = "compact";
+  };
 }

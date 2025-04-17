@@ -1,3 +1,5 @@
 {
-  plugins.snacks.settings.quickfile = {};
+  plugins.snacks.settings.quickfile = {
+    enabled = true;
+  };
 }

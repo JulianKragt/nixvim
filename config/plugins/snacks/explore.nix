@@ -1,5 +1,6 @@
 {
   plugins.snacks.settings.explorer = {
+    enabled = true;
     replace_netrw = true;
   };
   plugins.snacks.settings.picker.sources.explorer = {

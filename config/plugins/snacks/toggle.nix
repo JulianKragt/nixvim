@@ -1,3 +1,0 @@
-{
-  plugins.snacks.settings.toggle = {};
-}

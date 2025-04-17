@@ -5,6 +5,7 @@
 {
   extraPackages = [ pkgs.fd pkgs.ripgrep ];
   plugins.snacks.settings.picker = {
+    enabled = true;
     sources = {
       command_history.focus = "list";
       projects.focus = "list";
