@@ -56,7 +56,7 @@
     # Grep
     {
       mode = "n";
-      key = "<leader>s";
+      key = "<leader>sf";
       action = ":lua Snacks.picker.grep()<CR>";
       options.desc = "Find In Files";
     }
@@ -71,12 +71,6 @@
       key = "<leader>sB";
       action = ":lua Snacks.picker.grep_buffers()<CR>";
       options.desc = "Search Buffer";
-    }
-    {
-      mode = "n";
-      key = "<leader>sw";
-      action = ":lua Snacks.picker.grep_word()<CR>";
-      options.desc = "Search Buffers";
     }
     # Search
     {
