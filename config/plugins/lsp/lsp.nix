@@ -3,22 +3,14 @@
     enable = true;
     inlayHints = true;
     servers = {
-      gleam = {
-        enable = true;
-        autostart = true;
-      };
-      nixd = {
-        enable = true;
-        autostart = true;
-      };
-      svelte = {
-        enable = true;
-        autostart = true;
-      };
-      ts_ls = {
-        enable = true;
-        autostart = true;
-      };
+      html.enable = true;
+      gleam.enable = true;
+      nixd.enable = true;
+      svelte.enable = true;
+      ts_ls.enable = true;
+      yamlls.enable = true;
+      jsonls.enable = true;
+      gopls.enable = true;
     };
   };
 }
