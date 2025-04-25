@@ -4,7 +4,10 @@
   ...
 }:
 {
-  extraPackages = [ pkgs.nerd-fonts.fira-code ];
+  extraPackages = [
+    pkgs.nerd-fonts.fira-code
+    pkgs.gcc
+  ];
   imports = (lib.filesystem.listFilesRecursive ./plugins)
     ++ [
       ./settings.nix
