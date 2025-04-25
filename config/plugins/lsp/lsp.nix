@@ -3,14 +3,23 @@
     enable = true;
     inlayHints = true;
     servers = {
-      html.enable = true;
+      bashls.enable = true;
+      cssls.enable = true;
+      dockerls.enable = true;
       gleam.enable = true;
-      nixd.enable = true;
-      svelte.enable = true;
-      ts_ls.enable = true;
-      yamlls.enable = true;
-      jsonls.enable = true;
       gopls.enable = true;
+      html.enable = true;
+      jsonls.enable = true;
+      marksman.enable = true;
+      nginx_language_server.enable = true;
+      nixd.enable = true;
+      phpactor.enable = true;
+      sqls.enable = true;
+      svelte.enable = true;
+      taplo.enable = true;
+      ts_ls.enable = true;
+      vala_ls.enable = true;
+      yamlls.enable = true;
     };
   };
 }

@@ -5,11 +5,30 @@
 {
   plugins.treesitter.grammarPackages = with pkgs.vimPlugins.nvim-treesitter.builtGrammars; [
     bash
+    blade
+    css
+    dockerfile
+    editorconfig
+    elixir
+    erlang
+    gitignore
+    gleam
+    go
+    html
+    javascript
     json
     markdown
+    markdown_inline
+    nginx
     nix
+    php
     regex
+    scss
+    sql
+    svelte
     toml
+    typescript
+    vala
     vim
     vimdoc
     xml
