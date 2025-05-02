@@ -5,7 +5,4 @@
     nixvimInjections = true;
   };
 
-  dependencies.nodejs = {
-    enable = false;
-  };
 }

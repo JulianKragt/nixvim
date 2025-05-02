@@ -4,7 +4,7 @@
       enable = true;
       nvimRuntime = true;
       configs = true;
-      plugins = true;
+      # plugins = true;
     };
     combinePlugins = {
       enable = true;
