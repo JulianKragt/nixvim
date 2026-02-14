@@ -8,7 +8,13 @@
       dockerls.enable = true;
       gleam.enable = true;
       gopls.enable = true;
-      html.enable = true;
+      html = {
+        enable = true;
+        filetypes = [
+          "html"
+          "svg"
+        ];
+      };
       jsonls.enable = true;
       marksman.enable = true;
       nginx_language_server.enable = true;

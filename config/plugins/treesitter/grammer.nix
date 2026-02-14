@@ -17,8 +17,6 @@
     html
     javascript
     json
-    markdown
-    markdown_inline
     nginx
     nix
     php
