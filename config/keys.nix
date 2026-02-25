@@ -20,5 +20,17 @@
       key = "gr";
       action = "<cmd>lua vim.lsp.buf.references()<CR>";
     }
+    {
+      mode = [ "n" "v" ];
+      key = "<leader>ca";       # trigger code actions
+      action = "<cmd>lua vim.lsp.buf.code_action()<CR>";
+      options = { silent = true; };
+    }
+    {
+      mode = [ "n" "v" ];
+      key = "<leader>ci";       # trigger code actions
+      action = "<cmd>lua vim.ui.select({\"1\", \"2\"})<CR>";
+      options = { silent = true; };
+    }
   ];
 }
