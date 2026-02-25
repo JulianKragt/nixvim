@@ -7,6 +7,7 @@
   plugins.snacks.settings.picker = {
     enabled = true;
     sources = {
+      select.focus = "list";
       command_history.focus = "list";
       projects.focus = "list";
       registers.focus = "list";

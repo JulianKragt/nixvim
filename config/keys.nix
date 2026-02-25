@@ -27,10 +27,10 @@
       options = { silent = true; };
     }
     {
-      mode = [ "n" "v" ];
-      key = "<leader>ci";       # trigger code actions
-      action = "<cmd>lua vim.ui.select({\"1\", \"2\"})<CR>";
-      options = { silent = true; };
+      mode = "n";
+      key = "<leader>ci";
+      action = "<cmd>lua vim.lsp.buf.code_action({ apply = true, context = { only = { 'source.organizeImports' }, diagnostics = {} } })<CR>";
+      options = { desc = "Organize Imports"; silent = true; };
     }
   ];
 }
