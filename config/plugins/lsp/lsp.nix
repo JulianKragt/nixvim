@@ -26,6 +26,7 @@
       ts_ls.enable = true;
       vala_ls.enable = true;
       yamlls.enable = true;
+      tailwindcss.enable = true;
     };
   };
 }

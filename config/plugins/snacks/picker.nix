@@ -1,6 +1,6 @@
 {
-  pkgs,
-  ...
+pkgs,
+...
 }:
 {
   extraPackages = [ pkgs.fd pkgs.ripgrep ];
@@ -13,6 +13,15 @@
       registers.focus = "list";
       jumps.focus = "list";
       buffers.focus = "list";
+    };
+    win.input.keys = {
+      "<leader>s" = [ "edit_split" { mode = [ "n" "i" ]; } ];
+      "<leader>v" = [ "edit_vsplit" { mode = [ "n" "i" ]; } ];
+    };
+
+    win.list.keys = {
+      "<leader>s" = "edit_split";
+      "<leader>v" = "edit_vsplit";
     };
   };
   keymaps = [
